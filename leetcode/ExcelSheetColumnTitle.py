@@ -5,7 +5,6 @@ class Solution(object):
         :rtype: str
         """
         out = ""
-        c = 0
         while n != 0:
             m = (n - 1) % 26
             out = chr(ord('A') + m) + out
